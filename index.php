@@ -22,11 +22,11 @@ solution est celle qui n'est pas en commentaire.
 
 <body>
 <?php
-echo '<h1>Une table de multiplication</h1>';
+echo '<h1>Multiplication verticale</h1>';
 /********************************************************************************
 - Rendre dynamique le tableau suivant en utilisant une boucle for
 - La page DOIT être valide au W3C
-- Utilisez la méthode des "echo" successifs
+- Utiliser la méthode des "echo" successifs
 ********************************************************************************/
 /* SOLUTION */
 // Avec des echos successifs
@@ -70,8 +70,9 @@ echo '<h1>Une autre table de multiplication</h1>';
 /********************************************************************************
 - Rendre dynamique le tableau suivant en utilisant des boucles for
 - La page DOIT être valide au W3C
-- Utilisez la méthode des concaténations successives dans une variable 
+- Utiliser la méthode des concaténations successives dans une variable 
   avec affichage à la fin
+- Note: Il n'y a pas de boucles imbriquées
 ********************************************************************************/
 /* SOLUTION */
 // Avec des echos successifs
@@ -124,7 +125,7 @@ echo table2(8);
 */
 /* /SOLUTION */
 
-echo '<h1>Des tables de multiplication</h1>';
+echo '<h1>Table de multiplications</h1>';
 
 /********************************************************************************
 - Rendre dynamique le tableau suivant en utilisant des boucles for imbriquées
